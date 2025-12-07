@@ -1,0 +1,650 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration-line: none;
+}
+
+.black {
+	position: absolute;
+	bottom: 54.5%;
+	right: 10.8%;
+	color: #2E2D2D;
+	z-index: 10;
+	font-family: NotoSansKR;
+	font-weight: 900;
+}
+
+h1 {
+	font-size: 51px;
+	letter-spacing: 1.3px;
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("./fonts/NotoSansKR-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("./fonts/NotoSansKR-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("./fonts/NotoSansKR-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("./fonts/NotoSansKR-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+.homepage {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.click a {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    display: block;
+    background: rgba(255, 0, 0, 0);
+    cursor: pointer;
+}
+
+.click1 {top: 0%;}
+.click2 {top: 25%;}
+.click3 {top: 50%;}
+.click4 {top: 75%;}
+
+footer {
+	position: absolute;
+	bottom: 46.3%;
+	right: 11.2%;
+	font-size: 15px;
+	color: #D4D4D4;
+	font-family: NotoSansKR;
+	font-weight: 500;
+}
+
+/*[도서관 1]*/
+.woodlibraryimage {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.woodlibraryimage img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.woodlibrary {
+	position: absolute;
+	left: 30%;
+	top: 51%;
+	font-size: 15px;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 4px black;
+	text-align: center;
+	line-height: 26px;
+}
+
+.woodlibrary a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.woodlibrary a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.woodlibrary a:hover {
+	color: white;
+	font-size: 15.5px;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+/*[도서관2]*/
+.outlibraryimage {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.outlibraryimage img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.outlibrary {
+	position: absolute;
+	left: 44%;
+	bottom: 40%;
+	font-size: 15px;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	line-height: 26px;
+}
+
+.outlibrary a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.outlibrary a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.outlibrary a:hover {
+ 	color: white;
+ 	font-size: 15.5px;
+ 	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+/*[도서관3]*/
+.outlibrarystandimage {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.outlibrarystandimage img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.outlibrarystand {
+	position: absolute;
+	bottom: 45%;
+	left: 40.5%;
+	font-size: 15px;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2.5px 2.5px 2px black;
+	text-align: center;
+	line-height: 26px;
+}
+
+.outlibrarystand a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.outlibrarystand a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.outlibrarystand a:hover {
+ 	color: white;
+ 	font-size: 15.5px;
+ 	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+/*[과학관1]*/
+.mixscienceimg {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.mixscienceimg img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.mixscience {
+	position: absolute;
+	bottom: 26%;
+	left: 45%;
+	font-size: 15px;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 3px black;
+	text-align: center;
+	line-height: 26px;
+}
+
+.mixscience a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.mixscience a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.mixscience a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	font-size: 15.5px;
+}
+
+/*[과학관2]*/
+.inscienceimg {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.inscienceimg img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.inscience {
+	position: absolute;
+	left: 40%;
+	bottom: 57%;
+	font-size: 15px;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2.5px 2.5px 2.5px black;
+	text-align: center;
+	line-height: 26px;
+}
+
+.inscience a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.inscience a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.inscience a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	font-size: 15.5px;
+}
+
+/*[과학관3]*/
+.outscienceimg {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.outscienceimg img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.outscience {
+	position: absolute;
+	left: 44%;
+	bottom: 52%;
+	font-size: 15px;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 1.5px black;
+	text-align: center;
+	line-height: 26px;
+}
+
+.outscience a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.outscience a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.outscience a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	font-size: 15.5px;
+}
+
+/*[어두운사선계단1]*/
+.fiftystairimg {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.fiftystairimg img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.fiftystair {
+	position: absolute;
+	left: 43.5%;
+	bottom: 39%;
+	font-size: 15px;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	line-height: 26px;
+}
+
+.fiftystair a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.fiftystair a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.fiftystair a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	font-size: 15.5px;
+}
+
+/*[밝은사선계단2]*/
+.nuristairimg {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.nuristairimg img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.nuristair {
+	position: absolute;
+	left: 25%;
+	bottom:56%;
+	font-size: 15px;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	line-height: 26px;
+}
+
+.nuristair a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.nuristair a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.nuristair a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	font-size: 15.5px;
+}
+
+/*[대비있는갈라진계단1]*/
+.twostairimg {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.twostairimg img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.twostair {
+	position: absolute;
+	left: 41.3%;
+	bottom:58%;
+	font-size: 15px;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	line-height: 26px;
+}
+
+.twostair a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.twostair a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.twostair a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	font-size: 15.5px;
+}
+
+/*[밝은갈라진계단2]*/
+.twostair1img {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.twostair1img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.twostair1 {
+	position: absolute;
+	left: 54%;
+	bottom:63%;
+	font-size: 15px;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	line-height: 26px;
+}
+
+.twostair1 a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.twostair1 a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.twostair1 a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	font-size: 15.5px;
+}
+
+/*[반반계단]*/
+.halfstairimg {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.halfstairimg img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.halfstair1 {
+	position: absolute;
+	left: 15%;
+	bottom:46%;
+	font-size: 15px;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2.5px 2.5px 2px black;
+	text-align: center;
+	line-height: 26px;
+}
+
+.halfstair1 a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.halfstair1 a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.halfstair1 a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	font-size: 15.5px;
+}
+
+.halfstair2 {
+	position: absolute;
+	left: 57%;
+	bottom:48.2%;
+	font-size: 15px;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	line-height: 26px;
+}
+
+.halfstair2 a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.halfstair2 a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.halfstair2 a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	font-size: 15.5px;
+}
+
+/*[8각형석재계단]*/
+.outlibrarystandimg {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.outlibrarystandimg img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.outlibrarystand{
+	position: absolute;
+	left: 43%;
+	bottom:44%;
+	font-size: 15px;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2.5px 2.5px 2px black;
+	text-align: center;
+	line-height: 26px;
+}
+
+.outlibrarystand a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.outlibrarystand a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.outlibrarystand a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	font-size: 15.5px;
+}
